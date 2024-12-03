@@ -1,4 +1,5 @@
-# Advancing Medical Imaging Interpretability with Pixel-Level Insights
+# Comparing Imaging Interpretability with using GRAD-CAM and Pixel-Level Insights
+This Python-based program systematically evaluates and compares the performance of the Pixel-Level Interpretability (PLI) model with Grad-CAM, using publicly available COVID-19 chest radiograph datasets. The program is tailored to assess interpretability, diagnostic accuracy, and computational efficiency. It is implemented in Python with deep learning frameworks like TensorFlow or PyTorch and additional tools for visualization and statistical analysis.
 # System Requirements
 To successfully run the code for PLI, Grad-CAM, and VGG19, ensure your system meets the following hardware and software specifications:
 
