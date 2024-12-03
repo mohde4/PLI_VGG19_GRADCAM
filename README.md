@@ -1,4 +1,4 @@
-# Enhancing Pneumonia Diagnosis through AI Interpretability: Comparative Analysis of Pixel-Level Interpretability and Grad-CAM on X-ray Imaging with VGG19
+# Advancing Medical Imaging Interpretability with Pixel-Level Insights
 # System Requirements
 To successfully run the code for PLI, Grad-CAM, and VGG19, ensure your system meets the following hardware and software specifications:
 
