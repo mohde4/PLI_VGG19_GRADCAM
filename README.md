@@ -11,7 +11,7 @@ PLI is a fine-grained interpretability method designed to highlight the importan
 Grad-CAM is a widely-used interpretability technique that generates class-discriminative heatmaps, highlighting the regions of an image that are most influential in the model's decision-making process. Unlike PLI, Grad-CAM produces more general heatmaps that capture broader feature areas, making it suitable for identifying larger regions of interest in X-ray images.
 
 3. VGG19 Model
-, a convolutional neural network (CNN) architecture pre-trained on ImageNet, serves as the backbone of the pneumonia classification model. VGG19 is known for its depth and simplicity, making it effective for extracting complex features from medical images. The model is fine-tuned to classify chest X-ray images as either pneumonia-positive or normal.
+, a convolutional neural network (CNN) architecture pre-trained on ImageNet, serves as the backbone of the classification model. VGG19 is known for its depth and simplicity, making it effective for extracting complex features from medical images. The model is fine-tuned to classify chest X-ray images as either positive or normal.
 
 Workflow
 Data Preprocessing: Chest X-ray images are resized, normalized, and augmented to ensure robustness.
