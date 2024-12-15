@@ -15,7 +15,7 @@ Grad-CAM is a widely-used interpretability technique that generates class-discri
 
 Workflow
 Data Preprocessing: Chest X-ray images are resized, normalized, and augmented to ensure robustness.
-Model Training: The VGG19 model is trained on pneumonia and normal datasets, optimizing for accuracy and generalization.
+Model Training: The VGG19 model is trained on  normal and infected datasets, optimizing for accuracy and generalization.
 Interpretability Generation: After training, PLI and Grad-CAM are applied to generate heatmaps for a given query X-ray image.
 Visualization: The generated heatmaps are overlaid on the original image to provide visual explanations of the model's decision-making process.
 Purpose
@@ -43,8 +43,7 @@ To run the scripts, you need the following dependencies:
 ## 3. Dataset Information
 The study utilizes publicly available chest X-ray datasets. Download the datasets from:
 
-- **Pneonomia Chest X-rays Dataset**
-- **https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia**
+
 
 ## 4. Preprocessing steps include:
 - **Resizing images to 224x224 pixels.**
